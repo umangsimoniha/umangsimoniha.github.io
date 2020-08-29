@@ -1,2 +1,1 @@
-#README
-umang's blog
+##Starte Blog
