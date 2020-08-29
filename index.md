@@ -1,4 +1,4 @@
 ---
 layout: home
-title: Umang's Blog
+title:  Umang Simoniha
 ---
