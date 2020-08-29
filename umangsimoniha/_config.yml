@@ -1,0 +1,29 @@
+title: Umang's Blog
+markdown: kramdown
+url: ""
+baseurl: "/umangsimoniha"
+
+# for atom feed
+author:
+  name: Umang Simoniha
+  email: umangsimoniha@gmail.com
+  image: "https://www.linkpicture.com/q/IMG_7231.jpg"
+  bio: Umang Simoniha, Product Owner, Digital Business & Transformation @
+  github: "umangsimoniha"
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "post"
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /posts/:categories/:year/:month/:day/:title/
